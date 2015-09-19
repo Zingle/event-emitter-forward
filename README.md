@@ -3,8 +3,8 @@ event-emitter-forward
 Forward events from one EventEmitter to another.
 
 ```js
-var EventEmitter = require("events").EventEmitter,
-    forward = require("event-emitter-forward"),
+var forward = require("event-emitter-forward"),
+    EventEmitter = require("events").EventEmitter,
     source = new EventEmitter(),
     target = new EventEmitter();
 
